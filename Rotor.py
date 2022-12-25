@@ -21,10 +21,4 @@ class Rotor:
         letter = self.left[signal]
         signal = self.right.find(letter)
         return signal
-    
-I = Rotor('EKMFLGDQVZNTOWYHXUSPAIBRCJ', 'Q')
-II = Rotor('AJDKSIRUXBLHWTMCQGZNPYFVOE', 'E')
-III = Rotor('BDFHJLCPRTXVZNYEIWGAKMUSQO', 'V')
-IV = Rotor('ESOVPZJAYQUIRHXLNFTGKDCMWB', 'J')
-V = Rotor('VZBRGITYUPSDNHLXAWMJQOFECK', 'Z')
 
